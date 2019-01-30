@@ -8,7 +8,7 @@ public abstract class Clothes {
 
     // 顯示上衣名稱跟防禦力資訊
     public void info() {
-        System.out.println("\t" + this.getClass().getSimpleName() + "def: " + def);
+        System.out.println("\t" + this.getClass().getSimpleName() + " def: " + def);
     }
 
     public int getDef() {

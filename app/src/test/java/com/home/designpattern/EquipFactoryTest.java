@@ -21,6 +21,5 @@ public class EquipFactoryTest {
         equipFactory = new ArcherEquipFactory();
         Clothes clothes = equipFactory.productArmor();
         Weapon weapon = equipFactory.productWeapon();
-
     }
 }

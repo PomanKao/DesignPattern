@@ -12,6 +12,7 @@ public interface EquipFactory {
 
     /**
      *  製造裝備
+     * @return
      */
     Clothes productArmor();
 
